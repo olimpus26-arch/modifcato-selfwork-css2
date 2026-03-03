@@ -1,0 +1,89 @@
+/* font dei testi */
+*{
+    font-family: quicksand;
+    color: yellow
+}
+/* font del titolo */
+h1{
+    font-family: orbitron;
+    color:darkblue
+}
+/* stile header */
+header{
+    background-color: rgb(39, 38, 38);
+}
+nav{
+    display: flex;
+    justify-content: end;
+}
+ul{
+    font-size: 20px;
+    list-style-type: none;
+    margin: 0px 20px 20px;
+}
+a{
+    text-decoration: none;
+    margin: 0px 10px 20px;
+}
+a:hover{
+color: blueviolet;
+border-bottom: solid 2px blueviolet;
+}
+.titolo{
+    height: 28vh;
+    background-image: url(https://www.shutterstock.com/image-vector/blue-circuit-board-vector-illustration-260nw-1509405371.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5px;
+}
+.join{
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    color: blue;
+    text-shadow:  1px 1px 2px black;
+
+}
+/* stile main */
+main{
+    background-image: -webkit-linear-gradient(rgb(53, 53, 50), rgb(30, 11, 138));
+    display: flex;
+}
+.articoli{
+    display: flex;
+    width: 60%;
+}
+article{
+    border: solid 3px black;
+    margin: 0px 2px 2px;
+}
+aside{
+    background-color: yellow;
+    margin: 0px 0px 0px 0px;
+}
+.aside{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.imgArt{
+    width: 300px;
+}
+button{
+    background-color: black;
+
+}
+button:hover{
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+}
