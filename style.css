@@ -11,6 +11,9 @@ h1{
 /* stile header */
 header{
     background-color: rgb(39, 38, 38);
+    height: 15vh;
+    width: 98.5vw;
+
 }
 nav{
     display: flex;
@@ -52,6 +55,7 @@ h1{
 }
 /* stile main */
 main{
+    height: 70vh;
     background-image: -webkit-linear-gradient(rgb(53, 53, 50), rgb(30, 11, 138));
     display: flex;
 }
@@ -67,7 +71,7 @@ aside{
     background-color: yellow;
     margin: 0px 0px 0px 0px;
 }
-.aside{
+.laterale{
     color: black;
     display: flex;
     flex-direction: column;
@@ -86,4 +90,22 @@ button:hover{
     background-color: yellow;
     color: black;
     cursor: pointer;
+}
+.tornasu{
+    background-color: white;
+    height: 10vh;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    margin: 1px;
+    opacity: 0.2;
+    
+}
+.tornasu:hover{
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 600px){
+    
+    .header{max-height: 40vh;}
 }
